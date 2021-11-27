@@ -31,7 +31,7 @@ function App() {
   return (
     <>
       <Container>
-        <Button onClick={openModal}>I'm a modal</Button>
+        <Button onClick={openModal}>Je suis un modal</Button>
         <Modal showModal={showModal} setShowModal={setShowModal} />
         <GlobalStyle />
       </Container>
